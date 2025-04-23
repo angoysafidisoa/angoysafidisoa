@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safidisoa Angoy Urbaine | Communication Numérique & Management de Projet</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title optimisé -->
+  <title>Safidisoa Angoy Urbaine — Communication Numérique & Management de Projet</title>
+
+  <!-- Meta description -->
+  <meta name="description" content="Safidisoa Angoy Urbaine, Étudiante en communication numérique et management de projet. Découvrez son parcours, ses compétences et contactez-la pour vos projets digitaux.">
+
+  <!-- Mots‑clés (optionnel, peu pondérés aujourd’hui) -->
+  <meta name="keywords" content="Safidisoa Angoy, communication numérique, management de projet, community manager, stratégie digitale, Madagascar Fianarantsoa">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://safidy.terabit.mg/">
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (Facebook, LinkedIn…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://safidy.terabit.mg/">
+  <meta property="og:title" content="Safidisoa Angoy Urbaine — Communication Numérique & Management de Projet">
+  <meta property="og:description" content="Safidisoa Angoy Urbaine, experte en communication numérique et management de projet. Découvrez son parcours, ses compétences et contactez-la pour vos projets digitaux.">
+  <meta property="og:image" content="https://safidy.terabit.mg/assets/safidy-og.jpeg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://safidy.terabit.mg/">
+  <meta name="twitter:title" content="Safidisoa Angoy Urbaine — Communication Numérique & Management de Projet">
+  <meta name="twitter:description" content="Safidisoa Angoy Urbaine, Étudiante en communication numérique et management de projet. Découvrez son parcours, ses compétences et contactez-la pour vos projets digitaux.">
+  <meta name="twitter:image" content="https://safidy.terabit.mg/assets/safidy-og.jpeg">
+
+  <!-- Preconnect / Preload pour performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap">
+
+  <!-- Schema.org JSON‑LD (Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Safidisoa Angoy Urbaine",
+    "jobTitle": "Communication Numérique & Management de Projet",
+    "url": "https://safidy.terabit.mg/",
+    "image": "https://safidy.terabit.mg/assets/safidy.jpeg",
+    "email": "mailto:safidisoa11@gmail.com",
+    "telephone": "+261349654632",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fianarantsoa",
+      "addressCountry": "MG"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/angoy-safidisoa-b84656277/",
+      "https://twitter.com/votreprofil",
+      "https://www.instagram.com/votreprofil"
+    ]
+  }
+  </script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#6D5B8F',
+            secondary: '#A38FC4',
+            accent: '#FF9E7D',
+            light: '#F8F5FF',
+            dark: '#3E3B46',
+          },
+          fontFamily: {
+            sans: ['Montserrat', 'sans-serif'],
+            display: ['Playfair Display', 'serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+    body { scroll-behavior: smooth; }
+    .hero-pattern {
+      background-image: radial-gradient(circle, rgba(109,91,143,0.1) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    .skill-bar { transition: width 1.5s ease-in-out; }
+  </style>
+</head>
+<body class="font-sans bg-light text-dark">
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-white bg-opacity-90 shadow-sm z-50">
+    <div class="container mx-auto px-6 py-4">
+      <div class="flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-primary font-display">Safidisoa Angoy</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="text-dark hover:text-primary transition">À propos</a>
+          <a href="#cv" class="text-dark hover:text-primary transition">CV</a>
+          <a href="#skills" class="text-dark hover:text-primary transition">Compétences</a>
+          <a href="#projects" class="text-dark hover:text-primary transition">Projets</a>
+          <a href="#contact" class="text-dark hover:text-primary transition">Contact</a>
+        </div>
+        <button class="md:hidden focus:outline-none" id="menu-toggle">
+          <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="md:hidden hidden mt-4" id="mobile-menu">
+        <a href="#about" class="block py-2 text-dark hover:text-primary transition">À propos</a>
+        <a href="#cv" class="block py-2 text-dark hover:text-primary transition">CV</a>
+        <a href="#skills" class="block py-2 text-dark hover:text-primary transition">Compétences</a>
+        <a href="#projects" class="block py-2 text-dark hover:text-primary transition">Projets</a>
+        <a href="#contact" class="block py-2 text-dark hover:text-primary transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-pattern min-h-screen flex items-center pt-20">
+    <div class="container mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-12 md:mb-0">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight mb-6">
+          <span class="text-primary">Safidisoa Angoy</span><br>
+          <span class="text-secondary">Communication Numérique</span><br>
+          &amp; Management de Projet
+        </h1>
+        <p class="text-lg text-gray-600 mb-8 max-w-lg">
+          Étudiante et professionnelle motivée, passionnée par l’apprentissage, l’organisation et la contribution à des projets digitaux innovants.
+        </p>
+        <div class="flex space-x-4">
+          <a href="#contact" class="bg-primary hover:bg-secondary text-white px-6 py-3 rounded-full font-medium transition shadow-md">
+            Me contacter
+          </a>
+          <a href="#projects" class="border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-full font-medium transition">
+            Voir mes projets
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <div class="relative">
+          <div class="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-primary rounded-full overflow-hidden shadow-xl">
+            <!-- Remplacement du placeholder par la photo de Safidisoa -->
+            <img src="assets/safidy.jpeg" alt="Photo de Safidisoa Angoy" class="w-full h-full object-cover"
+            style="object-position: 50% 20%;">
+          </div>
+          <div class="absolute -bottom-6 -right-6 bg-accent text-white px-4 py-2 rounded-full shadow-lg">
+            <span class="font-medium">Disponible</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold font-display text-center mb-16 text-primary">
+        À propos de moi
+      </h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+          <div class="w-64 h-64 bg-gradient-to-br from-primary to-secondary rounded-full shadow-lg flex items-center justify-center overflow-hidden">
+            <!-- Remplacement du placeholder par la photo de Safidisoa -->
+            <img src="assets/safidy.jpeg" alt="Photo de Safidisoa Angoy" class="w-full h-full object-cover"
+            style="object-position: 50% 20%;">
+          </div>
+        </div>
+        <div class="md:w-2/3 md:pl-12">
+          <p class="text-lg text-gray-600 mb-6">
+            Je m'appelle Safidisoa Angoy Urbaine. Empathique, curieuse et organisée, je relève avec enthousiasme des défis variés. Mon parcours, tant académique que professionnel, m'a permis de développer une expertise en communication numérique ainsi qu’en management de projets innovants.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <div class="bg-light px-4 py-2 rounded-full flex items-center">
+              <i class="fas fa-graduation-cap text-primary mr-2"></i>
+              <span>En Master</span>
+            </div>
+            <div class="bg-light px-4 py-2 rounded-full flex items-center">
+              <i class="fas fa-map-marker-alt text-primary mr-2"></i>
+              <span>Fianarantsoa, Madagascar</span>
+            </div>
+            <div class="bg-light px-4 py-2 rounded-full flex items-center">
+              <i class="fas fa-heart text-primary mr-2"></i>
+              <span>Créative &amp; Collaboratrice</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV Section -->
+  <section id="cv" class="py-20 bg-light">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold font-display text-center mb-16 text-primary">
+        Mon Parcours Professionnel &amp; Académique
+      </h2>
+      <!-- Expériences Professionnelles en grille à 50%/50% avec style de card amélioré -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Carte Expérience 1 -->
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition transform hover:-translate-y-1">
+          <p class="text-sm text-gray-500">Septembre 2023 – Janvier 2025</p>
+          <h4 class="text-xl font-semibold text-primary mb-1">
+            Responsable Communication / Assistante de direction / Community Manager
+          </h4>
+          <p class="text-gray-600">Tsarasoa Production</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-600">
+            <li>Planification et organisation d’évènements internes et externes</li>
+            <li>Gestion des agendas et coordination de réunions</li>
+            <li>Animation et gestion des réseaux sociaux</li>
+          </ul>
+        </div>
+        <!-- Carte Expérience 2 -->
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition transform hover:-translate-y-1">
+          <p class="text-sm text-gray-500">Juin 2023 – Août 2023</p>
+          <h4 class="text-xl font-semibold text-primary mb-1">
+            Responsable Communication (Stage)
+          </h4>
+          <p class="text-gray-600">Tsarasoa Production</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-600">
+            <li>Tests et assurance qualité du projet</li>
+            <li>Planification et suivi</li>
+          </ul>
+        </div>
+        <!-- Carte Expérience 3 -->
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition transform hover:-translate-y-1">
+          <p class="text-sm text-gray-500">Janvier 2022</p>
+          <h4 class="text-xl font-semibold text-primary mb-1">
+            Animatrice
+          </h4>
+          <p class="text-gray-600">Star Madagascar</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-600">
+            <li>Vente de produits</li>
+            <li>Interactions avec la clientèle</li>
+            <li>Collaboration avec l’équipe de vente</li>
+          </ul>
+        </div>
+        <!-- Carte Expérience 4 -->
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition transform hover:-translate-y-1">
+          <p class="text-sm text-gray-500">Mai 2021 – Juillet 2021</p>
+          <h4 class="text-xl font-semibold text-primary mb-1">
+            Assistante de direction
+          </h4>
+          <p class="text-gray-600">Canal+ Fianarantsoa</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-600">
+            <li>Gestion du personnel</li>
+            <li>Assistance à la vente de produits</li>
+          </ul>
+        </div>
+        <!-- Carte Expérience 5 -->
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition transform hover:-translate-y-1">
+          <p class="text-sm text-gray-500">Novembre 2021 – Décembre 2023</p>
+          <h4 class="text-xl font-semibold text-primary mb-1">
+            Responsable Communication
+          </h4>
+          <p class="text-gray-600">EMIM (Emit Mianatra Multimédia)</p>
+        </div>
+        <!-- Carte Expérience 6 -->
+        <div class="p-6 bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-xl transition transform hover:-translate-y-1">
+          <p class="text-sm text-gray-500">Mai 2024 – Maintenant</p>
+          <h4 class="text-xl font-semibold text-primary mb-1">
+            Vice-présidente et Community Manager
+          </h4>
+          <p class="text-gray-600">EMIM (Emit Mianatra Multimédia)</p>
+        </div>
+      </div>
+      <!-- (Optionnel) Vous pouvez ajouter ici la partie Parcours Académique et Atouts si souhaité -->
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold font-display text-center mb-16 text-primary">
+        Mes Compétences
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-xl font-bold mb-6 text-secondary flex items-center">
+            <i class="fas fa-comments mr-3"></i>
+            Communication Numérique
+          </h3>
+          <div class="space-y-6">
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="font-medium">Stratégie digitale et Community Management</span>
+                <span class="text-primary">90%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="skill-bar bg-primary h-2.5 rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="font-medium">Community Management</span>
+                <span class="text-primary">85%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="skill-bar bg-primary h-2.5 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="font-medium">Gestion des ressources humaines</span>
+                <span class="text-primary">80%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="skill-bar bg-primary h-2.5 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="font-medium">Planification stratégique</span>
+                <span class="text-primary">75%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="skill-bar bg-primary h-2.5 rounded-full" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-6 text-secondary flex items-center">
+            <i class="fas fa-tasks mr-3"></i>
+            Langues
+          </h3>
+          <div class="space-y-6">
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="font-medium">Malagasy</span>
+                <span class="text-primary">100%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="skill-bar bg-primary h-2.5 rounded-full" style="width: 100%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="font-medium">Français</span>
+                <span class="text-primary">95%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="skill-bar bg-primary h-2.5 rounded-full" style="width: 95%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="font-medium">Anglais</span>
+                <span class="text-primary">80%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-2.5">
+                <div class="skill-bar bg-primary h-2.5 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact Section : Coordonnées unifiées -->
+  <section id="contact" class="py-20 bg-light">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold font-display text-center mb-16 text-primary">Contactez-moi</h2>
+      <div class="max-w-3xl mx-auto bg-primary text-white rounded-xl shadow-md p-8 text-center">
+        <h3 class="text-2xl font-bold mb-4">Travaillons ensemble</h3>
+        <p class="mb-8">Je suis toujours ouverte à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter pour discuter de votre projet.</p>
+        <div class="space-y-4">
+          <p class="flex items-center justify-center"><i class="fas fa-envelope mr-4 text-secondary"></i> safidisoa11@gmail.com</p>
+          <p class="flex items-center justify-center"><i class="fas fa-phone mr-4 text-secondary"></i> +261 34 96 546 32</p>
+          <p class="flex items-center justify-center"><i class="fas fa-map-marker-alt mr-4 text-secondary"></i> Andrainjato, Fianarantsoa</p>
+        </div>
+        <div class="mt-8 flex justify-center space-x-4">
+          <a href="https://www.linkedin.com/in/angoy-safidisoa-b84656277/" class="w-10 h-10 rounded-full bg-white text-primary flex items-center justify-center hover:bg-secondary hover:text-white transition">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full bg-white text-primary flex items-center justify-center hover:bg-secondary hover:text-white transition">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full bg-white text-primary flex items-center justify-center hover:bg-secondary hover:text-white transition">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-12">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-6 md:mb-0">
+          <a href="#" class="text-2xl font-bold text-white font-display">Safidisoa Angoy</a>
+          <p class="mt-2 text-gray-400">Communication Numérique &amp; Management de Projet</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="https://www.linkedin.com/in/angoy-safidisoa-b84656277/" class="text-gray-400 hover:text-white transition">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition">
+            <i class="fab fa-behance"></i>
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-gray-400 mb-4 md:mb-0">© 2023 Safidisoa Angoy. Tous droits réservés.</p>
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-400 hover:text-white transition">Mentions légales</a>
+          <a href="#" class="text-gray-400 hover:text-white transition">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
+          const mobileMenu = document.getElementById('mobile-menu');
+          if (!mobileMenu.classList.contains('hidden')) { mobileMenu.classList.add('hidden'); }
+        }
+      });
+    });
+
+    // Animate skill bars on scroll
+    function animateSkills() {
+      const skillBars = document.querySelectorAll('.skill-bar');
+      skillBars.forEach(bar => {
+        const width = bar.style.width;
+        bar.style.width = '0';
+        const observer = new IntersectionObserver((entries) => {
+          if (entries[0].isIntersecting) { bar.style.width = width; observer.unobserve(bar); }
+        });
+        observer.observe(bar);
+      });
+    }
+    window.addEventListener('load', animateSkills);
+  </script>
+</body>
+</html>
